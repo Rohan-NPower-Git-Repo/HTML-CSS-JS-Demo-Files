@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Current Date and Time </title>
+    <style>
+        body{
+            background-color: lemonchiffon;
+            color: purple;
+            text-align: center;
+        }
+    </style>
+</head>
+<body onload="displayDate()">
+    <h1> Current Date and Time: </h1>
+	
+    <h1 id="dateTime"> </h1>
+
+	<script>
+		function displayDate(){
+            document.getElementById('dateTime').textContent = new Date();
+        }
+	</script>
+
+</body>
+</html>
