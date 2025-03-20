@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> File Upload Demo </title>
+    <style>
+        body{
+            background-color: azure;
+            color: darkslategray;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="#">
+        <h2> Please Upload Files </h2>
+
+        
+        <h4> Dont Put Any Restrictions to File Type - All Files Visible </h4>
+        <input type="file" name="fileUpload" id="fileUpload" />
+
+        <h4> So we set some Restrictions - Allowed File Types - .txt, .sh, .ps1 </h4>
+        <input type="file" name="fileUpload2" id="fileUpload2" accept=".txt,.sh,.ps1" />
+
+        <br /> <br />
+        <input type="submit" value="Upload File" />
+
+    </form>
+</body>
+</html>
